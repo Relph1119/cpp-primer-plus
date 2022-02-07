@@ -69,3 +69,12 @@ add_executable(ex07-08-a exercises/ch07/ex08a.cpp)
 add_executable(ex07-08-b exercises/ch07/ex08b.cpp)
 add_executable(ex07-09 exercises/ch07/ex09.cpp)
 add_executable(ex07-10 exercises/ch07/ex10.cpp)
+
+# 第8章
+add_executable(ex08-01 exercises/ch08/ex01.cpp)
+add_executable(ex08-02 exercises/ch08/ex02.cpp)
+add_executable(ex08-03 exercises/ch08/ex03.cpp)
+add_executable(ex08-04 exercises/ch08/ex04.cpp)
+add_executable(ex08-05 exercises/ch08/ex05.cpp)
+add_executable(ex08-06 exercises/ch08/ex06.cpp)
+add_executable(ex08-07 exercises/ch08/ex07.cpp)
