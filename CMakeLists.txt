@@ -78,3 +78,9 @@ add_executable(ex08-04 exercises/ch08/ex04.cpp)
 add_executable(ex08-05 exercises/ch08/ex05.cpp)
 add_executable(ex08-06 exercises/ch08/ex06.cpp)
 add_executable(ex08-07 exercises/ch08/ex07.cpp)
+
+# 第9章
+add_executable(ex09-01 exercises/ch09/ex01/golf.cpp exercises/ch09/ex01/ex01.cpp)
+add_executable(ex09-02 exercises/ch09/ex02.cpp)
+add_executable(ex09-03 exercises/ch09/ex03.cpp)
+add_executable(ex09-04 exercises/ch09/ex04/sales.cpp exercises/ch09/ex04/ex04.cpp)
