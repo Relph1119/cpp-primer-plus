@@ -84,3 +84,13 @@ add_executable(ex09-01 exercises/ch09/ex01/golf.cpp exercises/ch09/ex01/ex01.cpp
 add_executable(ex09-02 exercises/ch09/ex02.cpp)
 add_executable(ex09-03 exercises/ch09/ex03.cpp)
 add_executable(ex09-04 exercises/ch09/ex04/sales.cpp exercises/ch09/ex04/ex04.cpp)
+
+# 第10章
+add_executable(ex10-01 exercises/ch10/ex01.cpp)
+add_executable(ex10-02 exercises/ch10/ex02.cpp)
+add_executable(ex10-03 exercises/ch10/ex03/golf.cpp exercises/ch10/ex03/ex03.cpp)
+add_executable(ex10-04 exercises/ch10/ex04/sales.cpp exercises/ch10/ex04/ex04.cpp)
+add_executable(ex10-05 exercises/ch10/ex05/stack.cpp exercises/ch10/ex05/ex05.cpp)
+add_executable(ex10-06 exercises/ch10/ex06.cpp)
+add_executable(ex10-07 exercises/ch10/ex07.cpp)
+add_executable(ex10-08 exercises/ch10/ex08/list.cpp exercises/ch10/ex08/ex08.cpp)
