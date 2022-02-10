@@ -94,3 +94,12 @@ add_executable(ex10-05 exercises/ch10/ex05/stack.cpp exercises/ch10/ex05/ex05.cp
 add_executable(ex10-06 exercises/ch10/ex06.cpp)
 add_executable(ex10-07 exercises/ch10/ex07.cpp)
 add_executable(ex10-08 exercises/ch10/ex08/list.cpp exercises/ch10/ex08/ex08.cpp)
+
+# 第11章
+add_executable(ex11-01 exercises/ch11/ex01/vect.cpp exercises/ch11/ex01/ex01.cpp)
+add_executable(ex11-02 exercises/ch11/ex02/vect.cpp exercises/ch11/ex02/ex02.cpp)
+add_executable(ex11-03 exercises/ch11/ex03/vect.cpp exercises/ch11/ex03/ex03.cpp)
+add_executable(ex11-04 exercises/ch11/ex04/mytime3.cpp exercises/ch11/ex04/ex04.cpp)
+add_executable(ex11-05 exercises/ch11/ex05/stonewt.cpp exercises/ch11/ex05/ex05.cpp)
+add_executable(ex11-06 exercises/ch11/ex06/stonewt.cpp exercises/ch11/ex06/ex06.cpp)
+add_executable(ex11-07 exercises/ch11/ex07/complex0.cpp exercises/ch11/ex07/ex07.cpp)
