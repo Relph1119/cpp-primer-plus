@@ -16,7 +16,7 @@ private:
     double pounds;                // entire weight in pounds
     Style style;
 public:
-    explicit Stonewt(double lbs);          // constructor for double pounds
+    Stonewt(double lbs);          // constructor for double pounds
     Stonewt(int stn, double lbs); // constructor for stone, lbs
     Stonewt();                    // default constructor
     ~Stonewt();
