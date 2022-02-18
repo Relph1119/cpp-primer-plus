@@ -3,6 +3,8 @@ project(cplusplus-primer-plus)
 
 set(CMAKE_CXX_STANDARD 14)
 
+add_executable(workermi assets/ch14/workermi.cpp assets/ch14/workmi.cpp)
+
 # 编程练习
 # 第2章
 add_executable(ex02-01 exercises/ch02/ex01.cpp)
@@ -117,3 +119,10 @@ add_executable(ex13-01 exercises/ch13/ex01/classic.cpp exercises/ch13/ex01/ex01.
 add_executable(ex13-02 exercises/ch13/ex02/classic.cpp exercises/ch13/ex02/ex02.cpp)
 add_executable(ex13-03 exercises/ch13/ex03/dma.cpp exercises/ch13/ex03/ex03.cpp)
 add_executable(ex13-04 exercises/ch13/ex04/vintageport.cpp exercises/ch13/ex04/ex04.cpp)
+
+# 第14章
+add_executable(ex14-01 exercises/ch14/ex01/winec.cpp exercises/ch14/ex01/ex01.cpp)
+add_executable(ex14-02 exercises/ch14/ex02/winec.cpp exercises/ch14/ex02/ex02.cpp)
+add_executable(ex14-03 exercises/ch14/ex03/queuetp.hpp exercises/ch14/ex03/ex03.cpp)
+add_executable(ex14-04 exercises/ch14/ex04/person.hpp exercises/ch14/ex04/ex04.cpp)
+add_executable(ex14-05 exercises/ch14/ex05/emp.h exercises/ch14/ex05/ex05.cpp)
