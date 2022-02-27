@@ -1,4 +1,4 @@
-//error4.cpp – using exception classes
+//error4.cpp - using exception classes
 #include <iostream>
 #include <cmath> // or math.h, unix users may need -lm flag
 #include "exc_mean.h"

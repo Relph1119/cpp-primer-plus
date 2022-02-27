@@ -126,3 +126,9 @@ add_executable(ex14-02 exercises/ch14/ex02/winec.cpp exercises/ch14/ex02/ex02.cp
 add_executable(ex14-03 exercises/ch14/ex03/queuetp.hpp exercises/ch14/ex03/ex03.cpp)
 add_executable(ex14-04 exercises/ch14/ex04/person.hpp exercises/ch14/ex04/ex04.cpp)
 add_executable(ex14-05 exercises/ch14/ex05/emp.h exercises/ch14/ex05/ex05.cpp)
+
+# 第15章
+add_executable(ex15-01 exercises/ch15/ex01/tv.cpp exercises/ch15/ex01/ex01.cpp)
+add_executable(ex15-02 exercises/ch15/ex02.cpp)
+add_executable(ex15-03 exercises/ch15/ex03.cpp)
+add_executable(ex15-04 exercises/ch15/ex04/sales.cpp exercises/ch15/ex04/ex04.cpp)
