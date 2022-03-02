@@ -4,6 +4,8 @@
 #include <iostream>
 #include <string>
 
+using namespace std;
+
 class abstr_emp {
 private:
     string fname; // abstr_emp's first name
@@ -187,7 +189,7 @@ void fink::ShowAll() const {
 
 void fink::SetAll() {
     abstr_emp::SetAll();
-    cout << "Enter the reports to whom: ";
+    cout << "Please input the reports to whom: ";
     getline(cin, reportsto);
 }
 
@@ -215,11 +217,10 @@ highfink::highfink(const highfink &h) : abstr_emp(h), manager(h), fink(h) {}
 void highfink::ShowAll() const {
     manager::ShowAll();
     cout << "Reportsto: " << ReportsTo() << endl;
-    cout << endl;
 }
 
 void highfink::SetAll() {
     manager::SetAll();
-    cout << "Enter the reportsto: ";
+    cout << "Please input the reportsto: ";
     getline(cin, fink::ReportsTo());
 }
