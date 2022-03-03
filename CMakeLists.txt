@@ -151,3 +151,9 @@ add_executable(ex17-04 exercises/ch17/ex04.cpp)
 add_executable(ex17-05 exercises/ch17/ex05.cpp)
 add_executable(ex17-06 exercises/ch17/ex06/emp.cpp exercises/ch17/ex06/ex06.cpp)
 add_executable(ex17-07 exercises/ch17/ex07.cpp)
+
+# 第18章
+add_executable(ex18-01 exercises/ch18/ex01.cpp)
+add_executable(ex18-02 exercises/ch18/ex02/cpmv.cpp exercises/ch18/ex02/ex02.cpp)
+add_executable(ex18-03 exercises/ch18/ex03.cpp)
+add_executable(ex18-04 exercises/ch18/ex04.cpp)

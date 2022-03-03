@@ -5,6 +5,8 @@
 #ifndef CPMV_H
 #define CPMV_H
 
+#include <string>
+
 using namespace std;
 
 class Cpmv {

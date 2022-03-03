@@ -3,6 +3,9 @@
 //
 #include <iostream>
 
+template<typename T>
+T average_list(std::initializer_list<T> il);
+
 int main() {
     using namespace std;
 
@@ -14,7 +17,18 @@ int main() {
     cout << average_list({20, 30, 19, 17, 45, 38}) << endl;
 
     // forced list of double
-    auto ad = average_list<double>({'A', 70, 65.33});
+    auto ad = average_list < double > ({ 'A', 70, 65.33 });
     cout << ad << endl;
     return 0;
+}
+
+template<typename T>
+T average_list(std::initializer_list<T> il) {
+    int count = 0;
+    T sum = 0;
+    for (auto p = il.begin(); p <= il.end(); p++) {
+        count++;
+        sum += *p;
+    }
+    return sum / count;
 }
